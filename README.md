@@ -14,10 +14,22 @@
 
 # Getting Started:
 
+The following is for a blank project
+
 ```bash
 npm install --save-dev @types/node
 npx tsc --init
 
+npm init -y
+
 ```
 
 <img src='https://user-images.githubusercontent.com/755710/64076328-73678880-cc91-11e9-82ba-b4fcc2050f69.png' width=600px>
+
+
+## To Run
+
+```bash
+tsc app/*.ts
+node app/app.js
+```

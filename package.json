@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-ref",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/mchirico/nodejs-ref.svg?branch=master)](https://travis-ci.org/mchirico/nodejs-ref) [![codecov](https://codecov.io/gh/mchirico/nodejs-ref/branch/master/graph/badge.svg)](https://codecov.io/gh/mchirico/nodejs-ref)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ./app",
+    "start": "npm run build -- -w"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchirico/nodejs-ref.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mchirico/nodejs-ref/issues"
+  },
+  "homepage": "https://github.com/mchirico/nodejs-ref#readme"
+}

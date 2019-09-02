@@ -1,4 +1,9 @@
 const fs = require('fs');
+import { Employee } from "./utils";
+
+let empObj = new Employee("Steve Jobs", 1);
+
+console.log('fn: ',empObj.displayEmployee());
 
 fs.writeFileSync('note.txt','This is a test');
 try {
