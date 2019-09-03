@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p ./app",
     "start": "npm run build -- -w"
-
   },
   "repository": {
     "type": "git",
@@ -19,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/mchirico/nodejs-ref/issues"
   },
-  "homepage": "https://github.com/mchirico/nodejs-ref#readme"
+  "homepage": "https://github.com/mchirico/nodejs-ref#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "ts-node": "^8.3.0"
+  }
 }
