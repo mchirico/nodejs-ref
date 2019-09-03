@@ -17,6 +17,7 @@
 The following is for a blank project
 
 ```bash
+npm install typescript --save-dev
 npm install --save-dev @types/node
 npm install chai mocha ts-node @types/chai @types/mocha --save-dev
 npx tsc --init
